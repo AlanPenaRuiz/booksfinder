@@ -9,8 +9,10 @@
     <link rel="stylesheet" href="css/bootstrap.css">
 </head>
 
-<body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-5">
+<body style="background-image: url(/book.jpg);background-repeat: no-repeat;
+background-attachment: fixed;  
+background-size: cover;">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-5">
         <a class="navbar-brand" href="#">Buscador Libros</a>
     </nav>
     <div class="container buscador">
@@ -36,7 +38,7 @@
         <div id="resultado-eventos" class="row mt-5"></div>
     </div>
 
-    <footer class="mt-5 p-3 text-center bg-primary">
+    <footer class="mt-5 p-3 text-center bg-dark">
         Buscador de Libros &copy;
     </footer>
 
@@ -51,6 +53,9 @@
         
         footer {
             color: white;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
         }
     </style>
 </body>
